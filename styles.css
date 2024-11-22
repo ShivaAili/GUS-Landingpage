@@ -908,6 +908,7 @@ h1 {
     grid-template-columns: auto auto auto !important;
   }
    .footer-container {
+     font-size: 13px !important;
     width: 100% !important;
    }
 
