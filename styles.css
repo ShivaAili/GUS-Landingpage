@@ -650,7 +650,7 @@ h1 {
     height: 50px;
   }
   .hero-section {
-    height: 60vh !important;
+    height: 65vh !important;
   }
   .text-content p {
     font-size: 0.8rem;
@@ -794,7 +794,7 @@ h1 {
     padding-bottom: 2rem !important;
   }
   .map-conatiner {
-    height: 435px !important;
+    height: 400px !important;
   }
   .map-img-section img {
     width: 84% !important;
@@ -839,11 +839,18 @@ h1 {
   }
 }
 
-@media (max-width: 768px) {
+@media only screen and (min-width: 768px){
+  body{
+    width: 100%;
+  }
+  .institutions-card {
+    width: 40% !important;
+  }
+
   .logo {
     height: 60px; 
     position: relative;
-    left: 0px;
+    left: 50px;
     top: 10px;
     margin: 10px
   }
@@ -859,5 +866,50 @@ h1 {
   .cta-button {
     padding: 8px 16px;
   }
+  .top-right {
+    transform: translateX(15rem) !important;
+    /* transform: translateY(146px); */
+    top: 8rem !important;
+  }
+  .center-right {
+    top: 17rem !important;
+    right: -7rem !important;
+  }
+  .flags img {
+    width: 35px !important;
+    height: 35px !important;
+  }
+  .germany-flag{
+    left: 41% !important;
+    top: 8px !important;
+  }
+  .canada-flag {
+    left: 25% !important;
+    top: -41px !important;
+  }
+  .uk-flag{
+    left: 48% !important;
+    top: -58px !important;
+  }
+  .map-img-section img {
+    width: 84% !important;
+    top: -12rem !important;
+  }
+  .card {
+    width: 300px !important;
+  }
+  .logos {
+    top: -4rem !important;
+    left: 6rem !important;
+  }
+  .footer-container {
+    text-align: center !important;
+    display: grid !important;
+    grid-template-columns: auto auto auto !important;
+  }
+   .footer-container {
+    width: 100% !important;
+   }
+
  
 }
