@@ -911,6 +911,10 @@ h1 {
      font-size: 13px !important;
     width: 100% !important;
    }
-
- 
+  .cards-section p {
+    font-size: 13px !important;
+  }
+  p {
+    font-size: 13px !important;
+  } 
 }
