@@ -843,6 +843,9 @@ h1 {
   body{
     width: 100%;
   }
+  .hero-section {
+    height: 65vh !important;
+  }
   .institutions-card {
     width: 40% !important;
   }
