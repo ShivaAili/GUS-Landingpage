@@ -840,12 +840,8 @@ h1 {
 }
 
 @media screen and (min-width: 481px) and (max-width: 780px){
-{
   body{
     width: 100%;
-  }
-  .hero-section {
-    height: 30vh !important;
   }
   .institutions-card {
     width: 40% !important;
@@ -912,13 +908,8 @@ h1 {
     grid-template-columns: auto auto auto !important;
   }
    .footer-container {
-     font-size: 13px !important;
     width: 100% !important;
    }
-  .cards-section p {
-    font-size: 13px !important;
-  }
-  p {
-    font-size: 13px !important;
-  } 
+
+ 
 }
