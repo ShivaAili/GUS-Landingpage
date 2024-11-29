@@ -854,6 +854,9 @@ h1 {
     top: 10px;
     margin: 10px
   }
+  .hero-section {
+    height: 75vh;
+  }
 
   .text-content p {
     font-size: 0.9rem;
@@ -874,6 +877,9 @@ h1 {
   .center-right {
     top: 17rem !important;
     right: -7rem !important;
+  }
+  .cards-section p {
+    font-size: 15px;
   }
   .flags img {
     width: 35px !important;
