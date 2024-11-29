@@ -839,7 +839,7 @@ h1 {
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 780px){
+@media screen and (min-width: 481px) and (max-width: 900px){
   body{
     width: 100%;
   }
