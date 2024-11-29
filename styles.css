@@ -885,6 +885,9 @@ h1 {
     width: 35px !important;
     height: 35px !important;
   }
+  .footer-container {
+    font-size: 12px;
+  }
   .germany-flag{
     left: 41% !important;
     top: 8px !important;
